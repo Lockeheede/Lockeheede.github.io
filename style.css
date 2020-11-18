@@ -15,8 +15,8 @@ body {
 }
 
 h1 {
-	font-size: 50px;
-	word-breal: break-all;
+	font-size: 35px;
+	word-break: break-all;
 }
 
 .row {
@@ -33,7 +33,7 @@ h1 {
 When doing four (which is the goal) change width to 25% */
 .column {
 	float: left;
-	width: 33.3%;
+	width: 33%;
 }
 
 /* Clear floats after rows */
@@ -53,5 +53,10 @@ When doing four (which is the goal) change width to 25% */
 @media screen and (max-width: 600px) {
 	.column {
 		width: 100%;
+	}
+	
+@media screen and (max-width: 900px) {
+	.column{
+		width: 50%;
 	}
 }
