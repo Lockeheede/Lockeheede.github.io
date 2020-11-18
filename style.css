@@ -1,0 +1,56 @@
+*{
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #f1f1f1;
+	padding: 20px;
+	font-family: Arial;
+}
+
+/* Center Website */
+.main {
+	max-width: 1000px;
+	margin: auto;
+}
+
+h1 {
+	font-size: 50px;
+	word-breal: break-all;
+}
+
+.row {
+	margin: 8px -16px;
+}
+
+/* Padding between each column */
+.row,
+.row > .column {
+	padding: 8px;
+}
+
+/* Four equal columns that float next to each other */
+.column {
+	float: left;
+	width: 25%;
+}
+
+/* Clear floats after rows */
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/* Content */
+.content {
+	background-color: white;
+	padding: 10px;
+}
+
+/* For responsive effects layout, makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+	.column {
+		width: 100%;
+	}
+}
