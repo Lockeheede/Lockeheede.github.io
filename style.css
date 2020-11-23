@@ -3,9 +3,11 @@
 }
 
 body {
-	background-color: #f1f1f1;
+	background-color: black;
 	padding: 20px;
 	font-family: Arial;
+	color: white;
+}
 }
 
 /* Center Website */
@@ -50,7 +52,7 @@ When doing four (which is the goal) change width to 25% */
 
 /* Content */
 .content {
-	background-color: white;
+	background-color: black;
 	padding: 10px;
 }
 
