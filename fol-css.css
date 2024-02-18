@@ -1,0 +1,57 @@
+* {
+	background-color: rgba(0, 0, 0, 1.0);
+}
+
+body {
+	margin: 0px;
+}
+
+h1 {
+	color: #FF7939; 
+}
+
+/*css tricks flexbox*/
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+/*fonts and borders*/
+
+h1 {
+	font-family: fantasy;
+	font-size: 3em;
+	border-bottom: 2px solid #FF7939;
+	border-right: 2px solid #FF7939;
+	/*distance of content*/
+	width: 400px;
+	text-align: center;
+	box-shadow: 4px 4px 5px #222222;
+	margin-top: 10px;
+}
+
+/*image size and margins*/
+
+img {
+	width: 400px;
+	height: 250px;
+	margin: 10px;
+	transition: all 1s;
+}
+
+/*Moving image when hovering in combination with transition of 1 second*/
+
+img:hover {
+	transform: scale(1.1);
+}
+
+/*Responsive UI: */
+
+footer {
+	text-align: center;
+}
+
+a {
+	color: white;
+}

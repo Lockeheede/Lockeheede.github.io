@@ -23,6 +23,19 @@ hr {
 	max-width: 65px;
 }
 
+footer {
+	text-align: center;
+	background-color: #440467;
+}
+
+a {
+	color: white;
+}
+
+a:hover {
+	color: black;
+}
+
 .buffer {
 	height: 5rem;
 }
