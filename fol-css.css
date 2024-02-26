@@ -7,7 +7,7 @@ body {
 }
 
 h1 {
-	color: #FF7939; 
+	color: #440467; 
 }
 
 /*css tricks flexbox*/
@@ -22,8 +22,8 @@ h1 {
 h1 {
 	font-family: fantasy;
 	font-size: 3em;
-	border-bottom: 2px solid #FF7939;
-	border-right: 2px solid #FF7939;
+	border-bottom: 2px solid #440467;
+	border-right: 2px solid #440467;
 	/*distance of content*/
 	width: 400px;
 	text-align: center;

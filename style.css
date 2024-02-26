@@ -9,6 +9,7 @@ html {
  	-o-background-size: cover;
  	background-size: cover;
  	background-position-y: 5%;
+ 	background-color: black;
 }
 
 h1 {
