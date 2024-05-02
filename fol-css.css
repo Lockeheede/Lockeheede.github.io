@@ -3,7 +3,10 @@
 }
 
 body {
-	margin: 0px;
+	margin: 25px;
+	background-color: black;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 
 h1 {
