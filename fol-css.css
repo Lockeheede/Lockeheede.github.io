@@ -5,12 +5,10 @@
 body {
 	margin: 25px;
 	background-color: black;
-	flex-wrap: wrap;
-	justify-content: center;
 }
 
 h1 {
-	color: #440467; 
+	color: #440467;
 }
 
 /*css tricks flexbox*/
@@ -32,6 +30,15 @@ h1 {
 	text-align: center;
 	box-shadow: 4px 4px 5px #222222;
 	margin-top: 10px;
+}
+
+h2 {
+	color: #440467;
+	font-family: fantasy;
+	font-size: 1.5em;
+	/*distance of content*/
+	/*width: 400px;*/
+	/*text-align: center;*/
 }
 
 /*image size and margins*/
