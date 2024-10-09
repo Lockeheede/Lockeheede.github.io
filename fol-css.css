@@ -66,3 +66,14 @@ footer {
 a {
 	color: white;
 }
+
+ /* Media Query for smaller screens */
+ @media (max-width: 768px) {
+	.container {
+	  flex-direction: column; /* Reduce padding on smaller screens */
+	}
+
+	.column, video {
+		width: 100%; /* For mobile, the columns will take full width*/
+	}
+  }
