@@ -111,3 +111,22 @@ a:hover {
   img:hover {
 	transform: scale(1.1);
 }
+
+img {
+	max-width: 100%;
+	height: auto;
+	display: block; /* Prevents space below the image */
+	margin-left: auto;
+	margin-right: auto; /* Center the image */
+  }
+
+  /* Media Query for smaller screens */
+  @media (max-width: 768px) {
+	.container {
+	  flex-direction: column; /* Reduce padding on smaller screens */
+	}
+
+	.column {
+		width: 100%; /* For mobile, the columns will take full width*/
+	}
+  }
