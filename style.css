@@ -1,21 +1,41 @@
 body,
 html {
-	width: 100%;
-	height: 100%;
+	margin: 0;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
 	font-family: 'Montserrat', sans-serif;
-	background: url(img/port_Lockes1_2.png) no-repeat center center fixed;
-  	-webkit-background-size: cover;
- 	-moz-background-size: cover;
- 	-o-background-size: cover;
- 	background-size: cover;
- 	background-position-y: 5%;
  	background-color: black;
 }
 
+.container {
+	display: flex;
+	flex: 1;
+}
+
+.column {
+	width: 50%;
+	padding: 20px;
+	box-sizing: border-box;
+	overflow-y: auto;
+}
+
+.column img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+  }
+
 h1 {
-	font-size: 3rem;
-	color:#440467;
-	text-shadow: 2px 2px white;
+	font-size: 3.5rem;
+	color:#CB6100;
+	border-bottom: 5px solid #CB6100;
+	border-right: 5px solid #CB6100;
+}
+
+.pad-white {
+	color: white;
+	padding: 10px;
 }
 
 hr {
@@ -26,7 +46,9 @@ hr {
 
 footer {
 	text-align: center;
-	background-color: #440467;
+	background-color: #CB6100;
+	align-items: end;
+	padding: 10px;
 }
 
 a {
@@ -45,11 +67,12 @@ a:hover {
 	font-weight: 700;
 	border-radius: 300px;
 	text-transform: uppercase;
+	background-color: CB6100;
 }
 
 .btn-success {
-	background-color: #440467;
-	border-color: #440467;
+	background-color: #CB6100;
+	border-color: #CB6100;
 }
 
 .btn-success:hover {
@@ -61,10 +84,30 @@ a:hover {
 /*.btn-xl {
 	padding: 1rem 2rem;
 }*/
-S
+
 .topleft {
   position: absolute;
   top: 8px;
   left: 16px;
   font-size: 18px;
+}
+
+.image-container {
+	display: flex;
+	flex-wrap: wrap; /* Allow images to wrap to the next line */
+	justify-content: space-around; /* Distribute space around images */
+	align-items: center; /* Vertically center images */
+	flex: 1; /* Allow images to take up available space */
+  }
+
+  .image-container img {
+	max-width: 15%; /* Adjust as needed to fit 4 images per row */
+	height: auto;
+	margin-bottom: 10px; /* Add some space between images */
+	transition: all 1s;
+
+  }
+
+  img:hover {
+	transform: scale(1.1);
 }
