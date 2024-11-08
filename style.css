@@ -5,7 +5,7 @@ html {
 	display: flex;
 	flex-direction: column;
 	font-family: 'Montserrat', sans-serif;
- 	background-color: black;
+ 	background-color: #e8e8e1;
 }
 
 .container {
@@ -14,15 +14,15 @@ html {
 }
 
 .column {
-	width: 50%;
+	width: 100%;
 	padding: 20px;
 	box-sizing: border-box;
 	overflow-y: auto;
 }
 
 .column img {
-	max-width: 100%;
-	height: auto;
+	max-width: 90%;
+	height: 75%;
 	display: block;
   }
 
@@ -34,7 +34,7 @@ h1 {
 }
 
 .pad-white {
-	color: white;
+	color: black;
 	padding: 10px;
 }
 
@@ -46,13 +46,13 @@ hr {
 
 footer {
 	text-align: center;
-	background-color: #CB6100;
+	background-color: #E2E2E9;
 	align-items: end;
 	padding: 10px;
 }
 
 a {
-	color: white;
+	color: #CB6100;
 }
 
 a:hover {
