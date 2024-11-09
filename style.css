@@ -133,4 +133,10 @@ img {
 	.column {
 		width: 100%; /* For mobile, the columns will take full width*/
 	}
+
+	video {
+		width: 50%;
+	}
+
+	
   }
