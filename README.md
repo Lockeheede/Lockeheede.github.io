@@ -6,3 +6,11 @@ Added a portfolio section for my Game Development. The mp4 videos were tricky. (
 # Update 11082024
 Added a games section for my site. There are no games up, but there is a gif of my new character in the works. Only email subscribers know the name of the game.
 "The name of the game is the game" -Nintendo
+
+# Update 01282025
+I forgot to add these read me updates. Here is a list of things I want to achieve by this coming Sunday:
+1. Put navigation on the top of the page, with a freeze (or sticky) banner
+2. Put more content on that first page to talk about the company.
+3. Add a cool background texture and come up with a new color scheme (Black or Orange? No more Purple...)
+4. Cut some images of the "new" Lockes.
+5. Mention coming back potentially in March 10 for Mario Day.
