@@ -19,7 +19,6 @@ header {
   justify-content: flex-end;
   list-style: none;
   background-color: rgba(0,0,0,1);
-  z-index: 100;
 }
 
 .navigation-menu li {
@@ -35,15 +34,15 @@ a {
 
 
 
-body,
-html {
+body
+ {
 	margin: 0;
 	height: 100vh;
 	display: flex;
 	flex-direction: column;
 	font-family: 'Montserrat', sans-serif;
  	background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url("img/background_1.jpg");
-	background-size: 100px;
+	background-size: 200px;
 }
 
 p {
@@ -53,6 +52,7 @@ p {
 .container {
 	display: flex;
 	flex: 1;
+	margin: 100px 0;
 }
 
 .column {
@@ -82,8 +82,7 @@ h1 {
 	color:#CB6100;
 	border-bottom: 5px solid #CB6100;
 	border-right: 5px solid #CB6100;
-	position: relative;
-	top: 25px;
+	display: block;
 }
 
 .topleft {
@@ -137,4 +136,14 @@ h1 {
 	video {
 		width: 50%;
 	}
+
+	img {
+		margin: autp;
+	}
+
+	.navigation-menu li {
+		padding: 3px;
+		margin: 0 3px;
+	}
+
   }
