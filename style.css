@@ -12,6 +12,7 @@ header {
 	top: 10px;
 	left: 10px;
 	width: 50px;
+	margin-top: -10px;
 }
 
 .navigation-menu ul {

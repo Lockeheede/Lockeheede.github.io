@@ -14,3 +14,8 @@ I forgot to add these read me updates. Here is a list of things I want to achiev
 3. Add a cool background texture and come up with a new color scheme (Black or Orange? No more Purple...)
 4. Cut some images of the "new" Lockes.
 5. Mention coming back potentially in March 10 for Mario Day.
+
+# Update 01302025
+1. Get some icons for the nav bar
+2. Set the buttons to have a linear-gradient(rgb(0,0,0,0.1), rgb(0,0,0,0.1))
+    a. And when they are : hover Remove the linear-gradient and transform the scale by 1.1
