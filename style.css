@@ -1,7 +1,3 @@
-header {
-	height: 100px;
-}
-
 .navigation-menu {
 	position: fixed;
 	width: 100%;
@@ -16,6 +12,7 @@ header {
 }
 
 .navigation-menu ul {
+  margin: 0;
   display: flex;
   justify-content: flex-end;
   list-style: none;
@@ -37,7 +34,7 @@ a {
 
 body
  {
-	margin: 0;
+	/* margin: 0; */
 	height: 100vh;
 	display: flex;
 	flex-direction: column;
@@ -52,8 +49,7 @@ p {
 
 .container {
 	display: flex;
-	flex: 1;
-	margin: 100px 0;
+	justify-content: flex-start;
 }
 
 .column {
@@ -84,6 +80,7 @@ h1 {
 	border-bottom: 5px solid #CB6100;
 	border-right: 5px solid #CB6100;
 	display: block;
+	margin-top: 100px;
 }
 
 .topleft {
@@ -98,11 +95,11 @@ h1 {
 	flex-wrap: wrap; /* Allow images to wrap to the next line */
 	justify-content: space-around; /* Distribute space around images */
 	align-items: center; /* Vertically center images */
-	flex: 1; /* Allow images to take up available space */
-  }
+	flex: 2; /* Allow images to take up available space */
+}
 
   .image-container img {
-	max-width: 15%; /* Adjust as needed to fit 4 images per row */
+	max-width: 30%; /* Adjust as needed to fit 4 images per row */
 	height: auto;
 	margin-bottom: 10px; /* Add some space between images */
 	transition: all 1s;
@@ -110,18 +107,35 @@ h1 {
 
 
   .image-container2 img {
-	max-width: 16%; /* Adjust as needed to fit 4 images per row */
-	height: auto;
+	width: 50%; /* Adjust as needed to fit 4 images per row */
 	margin-bottom: 10px; /* Add some space between images */
 	transition: all 1s;
   }
 
-  img:hover {
-	transform: scale(1.1);
+img:hover {
+	transform: scale(1.05);
 }
 
-.home_img:hover {
-	transform: scale(0.7);
+.img, .home_img {
+	transition: .5s ease-out;
+}
+
+.home_img {
+	float: left;
+	width: 50%;
+	transform: none;
+	margin-right: 15px;
+	border: 5px solid #CB6100;
+}
+
+.games-img-1 {
+	float: left;
+	width: 100%;
+	transform: none;
+}
+
+video, iframe {
+	float: right;
 }
 
   /* Media Query for smaller screens */
@@ -135,16 +149,24 @@ h1 {
 	}
 
 	video {
-		width: 50%;
+		width: 100%;
 	}
 
 	img {
-		margin: autp;
+		margin: auto;
 	}
 
 	.navigation-menu li {
 		padding: 3px;
 		margin: 0 3px;
+	}
+
+	h1 {
+		font-size: 28px;
+	}
+
+	.home_img {
+		width: 0%;
 	}
 
   }
