@@ -161,8 +161,8 @@ video, iframe {
 		margin: 0 3px;
 	}
 
-	h1 {
-		font-size: 28px;
+	h1, p, h3 {
+		font-size: 12px;
 	}
 
 	.home_img {
