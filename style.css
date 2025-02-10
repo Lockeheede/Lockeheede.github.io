@@ -1,6 +1,42 @@
 .navigation-menu {
-	position: fixed;
+	position: sticky;
 	width: 100%;
+}
+
+header {
+	text-align: center;
+	padding: 20px 0;
+	color: #CB6100;
+	font-weight: 1500;
+}
+
+.hero {
+	background: no-repeat center/cover url("img/hero2025.jpg");
+	min-height: 50vh;
+}
+
+h1 {
+	color: white;
+	text-shadow: 2px 2px 4px #CB6100;
+	font-weight: 200;
+	text-align: center;
+	padding-top: 10vh;
+}
+
+h4 {
+	color: white;
+}
+
+.start-button {
+	display: block;
+	border-radius: 40px;
+	width: 40%;
+	margin: 50px auto;
+}
+
+.main-images {
+	max-width: 450px;
+	text-align: center;
 }
 
 .logo {
@@ -74,15 +110,6 @@ p {
 	overflow-x: auto;
 }
 
-h1 {
-	font-size: 2.5rem;
-	color:#CB6100;
-	border-bottom: 5px solid #CB6100;
-	border-right: 5px solid #CB6100;
-	display: block;
-	margin-top: 100px;
-}
-
 .topleft {
   position: absolute;
   top: 8px;
@@ -140,9 +167,9 @@ video, iframe {
 
   /* Media Query for smaller screens */
   @media (max-width: 768px) {
-	.container {
+	/* .container {
 	  flex-direction: column; /* Reduce padding on smaller screens */
-	}
+ */
 
 	.column {
 		width: 100%; /* For mobile, the columns will take full width*/
@@ -160,13 +187,4 @@ video, iframe {
 		padding: 3px;
 		margin: 0 3px;
 	}
-
-	h1, p, h3 {
-		font-size: 12px;
-	}
-
-	.home_img {
-		width: 0%;
-	}
-
-  }
+}
